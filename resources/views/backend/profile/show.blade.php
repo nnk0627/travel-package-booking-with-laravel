@@ -11,7 +11,7 @@
             @include('alerts')
             <div class="card">
                 <div class="card-header text-center bg-primary">
-                    <h4>User Profile</h4>
+                    <h4>Admin Profile</h4>
                 </div>
                 <div class="card-body">
                     <div class="row">

@@ -3,7 +3,7 @@
         <div class="col-md-3">
             <a class="navbar-brand p-0" href="{{ url('/') }}">
                 <img src="{{ asset('images/logo.png') }}" width="60" height="60" alt="logo">
-                <b style="font-size: 20px; color:#FBB917" class="shadow-lg p-0 bg-white mb-5 rounded">Where you want to go?</b>
+                <b style="font-size: 20px; color:#FBB917" class="shadow-lg py-1 mb-5 rounded bg-white">Where you want to go?</b>
             </a>
         </div>
 

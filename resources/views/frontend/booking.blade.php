@@ -17,8 +17,8 @@
 	            	<h4 class="card-title text-center shadow mb-4 mt-5 rounded p-4">Travel Booking Form</h4>
 	            	<div class="offset-2 pl-5 mt-2 col-md-10">
 		                <input type="hidden" name="bookable_id" value="{{ $post->id }}">
-<!-- 		                <input type="hidden" name="bookable_type" value="App\post">
- -->		                <div class="form-row mb-3">
+					<!-- 		                <input type="hidden" name="bookable_type" value="App\post">
+					 -->		            <div class="form-row mb-3">
 				            <label for="names" class="col-md-3"><strong>Tour Name</strong></label>
 				            <input type="text" required class="form-control col-md-6" name="title" value=" {{ $post->title }} ">
 				        </div>
@@ -27,7 +27,6 @@
 				            <input type="name" required class="form-control col-md-6" placeholder="Enter Your Name" name="name">
 				        </div>
 				        <div class="form-row mb-3">
-
 				        	<label for="email" class="col-md-3"><strong>Email</strong></label>
 				            <input type="email" required class="form-control col-md-6" placeholder="Enter Email" name="email" value=" ">				            
 				        </div>
@@ -86,8 +85,8 @@
 			    	<div class="container" style="display:none; " id="myAlert">
 			        <div class="alert alert-success alert-dismissable" id="myAlert2">
 			            <!-- <button type="button" class="close shadow mb-3 rounded text-center" data-dismiss="alert" aria-hidden="true">&times;</button> -->
-			            <strong class="offset-5">Success! </strong><br><img src="{{ asset('images/checkmark.png') }}" width="50" height="50" alt="logo" class="offset-5"><br>
-			            <em class="offset-1">Your Booking sent successfully</em>
+			            <strong class="offset-5">Success! </strong><br><img src="{{ asset('images/checkmark.png') }}" alt="logo" class="offset-5"><br>
+			            <em class="offset-2">Your Booking sent successfully</em>
 			        </div>
 			    	</div>
 	            	</div>

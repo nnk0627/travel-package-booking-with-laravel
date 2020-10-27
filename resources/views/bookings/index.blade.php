@@ -15,18 +15,18 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>BookID</th>
+                        <th>BookingID</th>
                         <!-- <th>UserID</th> -->
-                        <th>Title</th>
-                        <th>Name</th>
+                        <th>TourName</th>
+                        <th>Customer</th>
                         <th>PhNo</th>
                         <th>Email</th>
                         <th>StartDate</th>
                         <th>EndDate</th>
                         <th>Price</th>
-                        <th>People</th>
-                        <th>Total</th>
-                        <th>Reviews</th>
+                        <th>NoOfPeople</th>
+                        <th>TotalPrice</th>
+                        <th>Messages</th>
                         <th>Createdat</th>
                     </tr>
                 </thead>

@@ -7,7 +7,7 @@
 
 <div class="container">
     <h3 class="home-title">{{$category->title}} Packages</h3>
-    <div class="row">
+    <div class="row bg-white">
             @foreach($posts as $post)
             <div class="col-lg-4 col-md-6 mb-5">
                     <div class="blog_place bg-white">

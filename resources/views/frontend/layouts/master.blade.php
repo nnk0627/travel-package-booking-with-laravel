@@ -35,6 +35,7 @@
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
+
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
             margin-right: -15px;
@@ -82,10 +83,8 @@
         }
 
         nav ul li a {
-            color: #E8E6E3;
-         
+            color: #000000;
             margin-left: 20px;
-            text-transform: capitalize;
             font-family:"Lucida Grande", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
             display: inline-block;
             padding: 0;
@@ -114,7 +113,7 @@
         }
 
         .d-block {
-            height: 550px;
+            height: 620px;
             position: relative;
             text-align: center;
         }
@@ -129,6 +128,11 @@
             -webkit-box-align: center!important;
             -ms-flex-align: center!important;
             align-items: center!important;
+        }
+
+        .dropdown-menu a:link {
+            margin: 0;
+            padding-left: 10px;
         }
 
         .section_title h2{
@@ -357,31 +361,10 @@
           overflow-y:auto;
         }
 
-        .fa-plane {
-            color: #1cad9f;
-            border-radius: 25px;
-            width: 10%;
-            margin-left: 5%;
-            border: solid 2px #dbdad7;
-            margin-top: 0;
-            text-align: center
-        }
-
-        .fa-taxi {
-            color: #c2f700;
-            border-radius: 25px;
-            width: 10%;
-            margin-left: 5%;
-            border: solid 2px #dbdad7;
-            margin-top: 0;
-            text-align: center
-        }
-
-        .fa-train {
+        #myAlert2 img {
             color: red;
             border-radius: 25px;
             width: 10%;
-            margin-left: 5%;
             border: solid 2px #dbdad7;
             margin-top: 0;
             text-align: center

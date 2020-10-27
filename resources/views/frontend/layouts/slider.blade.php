@@ -15,7 +15,7 @@
 
       <!--First slide-->
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('images/slider/blog-slider-07.jpg') }}" alt="First slide">
+        <img class="d-block w-100" src="{{ asset('images/slider/blog-slider-04.jpeg') }}" alt="First slide">
         <div class="centered">
             Your Journey start Here ! !
         </div>
@@ -24,7 +24,7 @@
 
       <!--Second slide-->
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('images/slider/blog-slider-06.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('images/slider/blog-slider-02.jpg') }}" alt="Second slide">
         <div class="centered">
             
             Your Journey start Here ! !
